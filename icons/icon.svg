@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect width="128" height="128" rx="30" fill="#ff6b9d"/>
+  <!-- 猫耳 -->
+  <polygon points="46,52 36,26 62,38" fill="#ffffff"/>
+  <polygon points="82,52 92,26 66,38" fill="#ffffff"/>
+  <!-- 脸 -->
+  <ellipse cx="64" cy="75" rx="32" ry="27" fill="#ffffff"/>
+  <!-- 蝴蝶结（右耳上方） -->
+  <circle cx="76" cy="28" r="10" fill="#e6294a"/>
+  <circle cx="92" cy="28" r="10" fill="#e6294a"/>
+  <circle cx="84" cy="28" r="6" fill="#c11f3e"/>
+  <!-- 眼睛 -->
+  <circle cx="54" cy="70" r="4" fill="#4a2a36"/>
+  <circle cx="74" cy="70" r="4" fill="#4a2a36"/>
+  <!-- 鼻子 -->
+  <ellipse cx="64" cy="80" rx="4.5" ry="3.2" fill="#ffc850"/>
+  <!-- 胡须 -->
+  <g stroke="#4a2a36" stroke-width="2" stroke-linecap="round">
+    <line x1="34" y1="78" x2="22" y2="74"/>
+    <line x1="34" y1="84" x2="22" y2="86"/>
+    <line x1="94" y1="78" x2="106" y2="74"/>
+    <line x1="94" y1="84" x2="106" y2="86"/>
+  </g>
+</svg>
