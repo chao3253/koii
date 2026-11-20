@@ -1,24 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
-  <rect width="128" height="128" rx="30" fill="#ff6b9d"/>
-  <!-- 猫耳 -->
-  <polygon points="46,52 36,26 62,38" fill="#ffffff"/>
-  <polygon points="82,52 92,26 66,38" fill="#ffffff"/>
-  <!-- 脸 -->
-  <ellipse cx="64" cy="75" rx="32" ry="27" fill="#ffffff"/>
-  <!-- 蝴蝶结（右耳上方） -->
-  <circle cx="76" cy="28" r="10" fill="#e6294a"/>
-  <circle cx="92" cy="28" r="10" fill="#e6294a"/>
-  <circle cx="84" cy="28" r="6" fill="#c11f3e"/>
-  <!-- 眼睛 -->
-  <circle cx="54" cy="70" r="4" fill="#4a2a36"/>
-  <circle cx="74" cy="70" r="4" fill="#4a2a36"/>
-  <!-- 鼻子 -->
-  <ellipse cx="64" cy="80" rx="4.5" ry="3.2" fill="#ffc850"/>
-  <!-- 胡须 -->
-  <g stroke="#4a2a36" stroke-width="2" stroke-linecap="round">
-    <line x1="34" y1="78" x2="22" y2="74"/>
-    <line x1="34" y1="84" x2="22" y2="86"/>
-    <line x1="94" y1="78" x2="106" y2="74"/>
-    <line x1="94" y1="84" x2="106" y2="86"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff8fbe"/>
+      <stop offset="1" stop-color="#f04480"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#bg)"/>
+  <!-- 原创双心交叠：左心略偏冷粉，右心略偏暖粉，交叠处形成第三颗小心 -->
+  <g transform="translate(64 66)">
+    <path d="M0 26 C-34 4 -40 -20 -22 -26 C-9 -30 0 -20 0 -12 C0 -20 9 -30 22 -26 C40 -20 34 4 0 26 Z"
+          fill="#ffffff" opacity="0.95"/>
+    <path d="M-8 16 C-28 2 -32 -14 -20 -18 C-11 -21 -6 -14 -6 -8"
+          fill="none" stroke="#ffd0e2" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
   </g>
+  <!-- 顶部小星点，呼应梦幻氛围 -->
+  <circle cx="34" cy="32" r="3" fill="#ffffff" opacity="0.85"/>
+  <circle cx="98" cy="40" r="2.4" fill="#ffffff" opacity="0.7"/>
+  <circle cx="92" cy="26" r="1.8" fill="#ffffff" opacity="0.6"/>
 </svg>
