@@ -1,6 +1,6 @@
 // 恋爱手账 · Koii — Service Worker
 // 策略：应用壳（App Shell）网络优先、缓存回退；让 PWA 可离线打开。
-const CACHE_NAME = 'koii-v12';
+const CACHE_NAME = 'koii-v13';
 const APP_SHELL = ['./', './index.html', './manifest.webmanifest'];
 
 self.addEventListener('install', (event) => {
